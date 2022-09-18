@@ -25,7 +25,7 @@ class NicknameFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        binding.etNickname.requestFocus()
         binding.btnNext.setOnClickListener {
             val nickname = binding.etNickname.text.toString()
             if (nickname.isEmpty()) {

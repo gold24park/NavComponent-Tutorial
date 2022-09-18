@@ -42,6 +42,7 @@ class VerifyCodeFragment : Fragment() {
             onVerificationSucceed(phone)
         }
 
+        binding.etCode.requestFocus()
         binding.btnNext.setOnClickListener {
             val code = binding.etCode.text.toString().trim()
             if (code == TEST_CODE) {

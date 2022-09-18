@@ -22,7 +22,7 @@
             app:destination="@id/verifyCodeFragment" />
         <action
             android:id="@+id/action_phoneFragment_to_agreementFragment"
-            app:destination="@id/agreementFragment" />
+            app:destination="@id/agreementFragment"/>
         <argument
             android:name="nickname"
             app:argType="string"/>

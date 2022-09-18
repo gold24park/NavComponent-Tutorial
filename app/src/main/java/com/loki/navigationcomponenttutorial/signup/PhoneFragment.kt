@@ -36,6 +36,7 @@ class PhoneFragment : Fragment() {
 
         nickname = PhoneFragmentArgs.fromBundle(requireArguments()).nickname
 
+        binding.etPhone.requestFocus()
         binding.btnNext.setOnClickListener {
             phone = binding.etPhone.text.toString()
 
