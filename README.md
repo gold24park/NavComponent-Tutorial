@@ -2,6 +2,7 @@
 레거시 프로젝트에서 일부분만 NavigationComponent를 도입하는 예제입니다.
 
 [Youtube Demo](https://youtube.com/shorts/oWA2a_X3DzY)
+
 [Blog post](https://jizard.tistory.com/437)
 
 ### 회원가입 프로세스
